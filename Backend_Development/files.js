@@ -19,3 +19,11 @@ const fs = require('fs');
 // );
 
 // delete files
+fs.rmdir('./styles', (err)  => {
+if (err)
+{
+    console.log(err);
+}
+console.log("file has been deleted Sucessfully");
+}
+);
